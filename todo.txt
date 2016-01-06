@@ -1,0 +1,9 @@
+- Popup error messages (ajax?)
+- login
+- home page
+- show obituary
+- search
+- control panel
+
+- styling
+- auto generate (select - different form)

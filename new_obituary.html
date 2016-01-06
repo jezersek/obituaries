@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Post a new obituary</title>
+</head>
+
+<body>
+<h1>Post a new obituary</h1>
+<form method="post" accept-charset="UTF-8" >
+	First name: <input type="text" name="firstname" maxlength="25"><br />
+	Last name: <input type="text" name="lastname" maxlength="35"><br />
+	Photo: <input type="file" name="photo"><br />
+	Date of birth: <input type="date" name="dateOfBirth"><br />
+	Date of death: <input type="date" name="dateOfDeath"><br />
+	Religion: <br/>
+		<input type="radio" name="religion" value="0">Catholic<br/>
+		<input type="radio" name="religion" value="1">Orthodox<br/>
+		<input type="radio" name="religion" value="2">Jewish<br/>
+		<input type="radio" name="religion" value="3">Islam<br/>
+	Region/city: <input type="text" name="location" maxlength="50"><br />
+	Text: <textarea name="text" maxlength="300"></textarea><br/>
+	Choose size of obituary: <br/>
+		<input type="radio" name="size" value="0">Small<br/>
+		<input type="radio" name="size" value="1">Medium<br/>
+		<input type="radio" name="size" value="2">Large<br/>
+	<input type="submit" value="Publish it">
+</form>
+</body>
+</html>
