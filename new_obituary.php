@@ -50,8 +50,7 @@ if(isset($_POST['post']))
 	elseif(!ctype_alnum(str_replace(' ', '', $text))) {
 		$err = 'Text can only contain numbers and letters!';
 	}
-	// 
-	print(exif_imagetype($_FILES['photo']['tmp_name']));
+
 	if(!empty($_FILES["photo"]["name"])) {
 		if(($_FILES['photo']['size'] < 1024000 ) && getimagesize($_FILES['photo']['tmp_name'])) {
 			$photo_tmp = addslashes(file_get_contents($_FILES['photo']['tmp_name']));	
